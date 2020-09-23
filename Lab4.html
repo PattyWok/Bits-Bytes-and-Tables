@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 	<link rel="stylesheet" href="Lab4.css"> -->
+	<title>bits.html</title>
+</head>
+<body>
+	<div id="Container"></div>
+			<h1>This is where you shall learn what a bit is!</h1>
+			<div id="firstInfo">Enter some bits!</div>
+				<input type="text" id="bits" value=0>
+				<input type="button" id="bits2" value="Turn into bits!" onclick="bytesGenerator()">
+				<br>
+				<br>
+
+<!-- 				<table id="table">
+					<tr id="poop"><td><b>8 bits!</b><td>1 byte!</td></tr>
+					<tr><td><b>16 bits!</b><td>2 bytes!</td></tr>
+					<tr><td><b>32 bits!</b></td><td>3 bytes!</td></tr>
+					<tr><td><b>64 bits!</b></td><td>4 bytes!</td></tr>
+				</table> -->
+				<table id="table1"><tbody id="body"><tr id="tr1"><td id="td">8 bits!<td>1 byte!</td></tr><tr><td>16 bits!<td>2 bytes!</td></tr><tr><td>32 bits!</td><td>3 bytes!</td></tr><tr><td>64 bits!</td><td>4 bytes!</td></tr></tbody>
+				</table>
+		<script>
+	// insert loop that takes the values of the nodes and assigns them to each child element, then do something with that assignment
+
+	//Thought: I could use querySelector on a if Loop on <td> to keep getting the first Element of the <td> (which would the the inner.HTML), then have the loop change the contents of the <td>, 
+		let adolescent = document.getElementById("body");
+		z = adolescent.childNodes;
+		var olderArray = Array.from(z);
+		let children = document.getElementById("td");
+		q = children.childNodes;
+		var babyArray = Array.from(q);
+		console.log(babyArray);
+		console.log(babyArray[0].setTextContent="Hello");
+			function app(){
+			for(w = 0; w < babyArray.length; w++) {
+			  if (w === 0) {
+			  	console.log('This worked');
+			    babyArray[w].innerText = "Bits!";
+			  } else {
+			    babyArray[w].innerHTML = "Bytes!";
+			    console.log("You are here");
+			  }
+			  console.log('You are here');
+			}
+		}
+	// let adolescent = document.getElementById("body");
+	// z = adolescent.childNodes;
+	// var olderArray = Array.from(z);
+	// console.log(olderArray);
+	// if (olderArray[0]){
+	// 	app();
+	// 	// let children = document.getElementById("td");
+	// 	// q = children.childNodes;
+	// 	// var babyArray = Array.from(q);
+	// 	// // function app(){
+	// 	// 	for(w = 0; w < babyArray.length; w++) {
+	// 	// 	  if (w === 0) {
+	// 	// 	    babyArray[w].innerHTML = "Bits!";
+	// 	// 	  } else {
+	// 	// 	    babyArray[w].innerHTML = "Bytes!";
+	// 	// 	  }
+	// 	// 	}
+	// 	// }
+	// 	console.log(adolescent);
+// }
+app();
+
+
+
+
+
+	// function one(item, index){
+	// 	console.log(` ${index}`);
+	// 	if(index===0){
+	// 		;
+		// }
+	// 	var n = 8;
+	// function random(array, index){
+	// 	for (var i=0; i<2; i++){
+	// 		if (array[i].innerHTML==`${n}+ bytes!`){
+	// 			array[i].innerHTML==`${n / 8}+ bits!`
+	// 		}else if(array[i].innerHTML==`${n}+ bytes!`){
+
+	// 		}console.log(babyArray);
+	// 	}
+	// }
+	// babyArray.forEach(random);
+// 	}
+// 	console.log(babyArray.findIndex[0]);
+// 	babyArray.forEach(one);
+// 	var reader = babyArray.forEach(one);
+// 	console.log(reader.findIndex(0));
+// // 	function stuff(){
+// 	for (i=0; i<reader+1; i++)
+// 			console.log(reader);
+// }
+		// array.forEach(one);
+
+		
+	// function f (){
+	// 	for (q; q<q.length; q++)
+			//take the value of q and assign it to each childClass
+
+	// }
+
+</script>
+	</body>
+</html>
