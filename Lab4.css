@@ -1,0 +1,39 @@
+*{
+	padding:  0;
+	margin:  0;
+	box-sizing: border-box;
+}
+#container{
+	margin: 10px;
+}
+
+
+
+
+table, td{
+	border: #18711A solid 6px;
+	margin: 5px;
+	width: 300px;
+}
+table>tbody>tr>td:hover{
+
+}
+table>tbody>tr>td:hover{
+	border: black 5px solid;
+}
+
+
+
+
+
+/* table > tbody > tr > td::after{
+	border: black solid 5px;
+}
+table, td:hover::after{
+	border: black solid 5px;
+	content: "crazy!";
+}
+
+#class:hover::after{
+	color: red;
+} */
